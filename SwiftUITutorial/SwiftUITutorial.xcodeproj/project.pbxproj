@@ -14,6 +14,9 @@
 		EC86CD8029EBC8FF00EB8FBC /* SwiftUITutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC86CD7F29EBC8FF00EB8FBC /* SwiftUITutorialTests.swift */; };
 		EC86CD8A29EBC8FF00EB8FBC /* SwiftUITutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC86CD8929EBC8FF00EB8FBC /* SwiftUITutorialUITests.swift */; };
 		EC86CD8C29EBC8FF00EB8FBC /* SwiftUITutorialUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC86CD8B29EBC8FF00EB8FBC /* SwiftUITutorialUITestsLaunchTests.swift */; };
+		EC86CD9929EBCBCF00EB8FBC /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC86CD9829EBCBCF00EB8FBC /* CircleImage.swift */; };
+		EC86CD9B29EBDD2100EB8FBC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC86CD9A29EBDD2100EB8FBC /* MapView.swift */; };
+		EC86CD9D29EBE46F00EB8FBC /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC86CD9C29EBE46F00EB8FBC /* Label.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		EC86CD8529EBC8FF00EB8FBC /* SwiftUITutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUITutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC86CD8929EBC8FF00EB8FBC /* SwiftUITutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITutorialUITests.swift; sourceTree = "<group>"; };
 		EC86CD8B29EBC8FF00EB8FBC /* SwiftUITutorialUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITutorialUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC86CD9829EBCBCF00EB8FBC /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		EC86CD9A29EBDD2100EB8FBC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		EC86CD9C29EBE46F00EB8FBC /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 				EC86CD6E29EBC8FE00EB8FBC /* SwiftUITutorialApp.swift */,
 				EC86CD7029EBC8FE00EB8FBC /* ContentView.swift */,
 				EC86CD7229EBC8FF00EB8FBC /* Assets.xcassets */,
+				EC86CD9829EBCBCF00EB8FBC /* CircleImage.swift */,
+				EC86CD9C29EBE46F00EB8FBC /* Label.swift */,
+				EC86CD9A29EBDD2100EB8FBC /* MapView.swift */,
 				EC86CD7429EBC8FF00EB8FBC /* Preview Content */,
 			);
 			path = SwiftUITutorial;
@@ -258,7 +267,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC86CD7129EBC8FE00EB8FBC /* ContentView.swift in Sources */,
+				EC86CD9B29EBDD2100EB8FBC /* MapView.swift in Sources */,
 				EC86CD6F29EBC8FE00EB8FBC /* SwiftUITutorialApp.swift in Sources */,
+				EC86CD9D29EBE46F00EB8FBC /* Label.swift in Sources */,
+				EC86CD9929EBCBCF00EB8FBC /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
