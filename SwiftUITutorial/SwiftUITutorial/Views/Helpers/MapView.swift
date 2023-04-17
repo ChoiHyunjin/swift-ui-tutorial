@@ -30,6 +30,7 @@ struct MapView: View {
 
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {
+        let landmarks = ModelData().landmarks
         MapView(coordinate: landmarks[0].locationCorrdinate)
     }
 }
